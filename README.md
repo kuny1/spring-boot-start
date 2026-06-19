@@ -31,9 +31,13 @@ bsdtar -xf start.zip --strip-components=1
 ![脚手架创建模板项目](./assets/init.png)
 
 ## 项目运行
+### 运行
 - 方法1：VS Code 在 main 函数直接有 `run` 的按钮
 - 方法2：终端中运行 `mvn spring-boot:run`
 - 方法3：`mvn clean package` 然后 `java -jar target/start-0.0.1-SNAPSHOT.jar`
+
+### 访问
+- 在浏览器中打开：`http://localhost:8080/hello`
 
 ![通过 Jar 运行](./assets/run.png)
 
